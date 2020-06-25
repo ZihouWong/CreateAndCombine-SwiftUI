@@ -13,7 +13,7 @@
 		832C2D3F24A1F76300F83A50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 832C2D3E24A1F76300F83A50 /* Assets.xcassets */; };
 		832C2D4224A1F76300F83A50 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 832C2D4124A1F76300F83A50 /* Preview Assets.xcassets */; };
 		832C2D4524A1F76300F83A50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 832C2D4324A1F76300F83A50 /* LaunchScreen.storyboard */; };
-		832C2D5024A1F76300F83A50 /* FoodTracker_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832C2D4F24A1F76300F83A50 /* FoodTracker_SwiftUIUITests.swift */; };
+		832C2D5024A1F76300F83A50 /* CreateAndCombine_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832C2D4F24A1F76300F83A50 /* CreateAndCombine_SwiftUIUITests.swift */; };
 		832C2D5F24A25A1D00F83A50 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832C2D5E24A25A1D00F83A50 /* CircleImage.swift */; };
 		83CE2A6224A4DBD400F30A20 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CE2A6124A4DBD400F30A20 /* MapView.swift */; };
 /* End PBXBuildFile section */
@@ -29,7 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		832C2D3524A1F76000F83A50 /* CreateAndCombine-SwiftUIUITests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CreateAndCombine-SwiftUIUITests.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		832C2D3524A1F76000F83A50 /* CreateAndCombine-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CreateAndCombine-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		832C2D3824A1F76000F83A50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		832C2D3A24A1F76000F83A50 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		832C2D3C24A1F76000F83A50 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -37,10 +37,10 @@
 		832C2D4124A1F76300F83A50 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		832C2D4424A1F76300F83A50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		832C2D4624A1F76300F83A50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		832C2D4B24A1F76300F83A50 /* CreateAndCombine-SwiftUIUITestsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CreateAndCombine-SwiftUIUITestsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		832C2D4F24A1F76300F83A50 /* FoodTracker_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTracker_SwiftUIUITests.swift; sourceTree = "<group>"; };
+		832C2D4B24A1F76300F83A50 /* CreateAndCombine-SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CreateAndCombine-SwiftUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		832C2D4F24A1F76300F83A50 /* CreateAndCombine_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAndCombine_SwiftUIUITests.swift; sourceTree = "<group>"; };
 		832C2D5124A1F76300F83A50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		832C2D5E24A25A1D00F83A50 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CircleImage.swift; path = ../CircleImage.swift; sourceTree = "<group>"; };
+		832C2D5E24A25A1D00F83A50 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		83CE2A6124A4DBD400F30A20 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,8 +74,8 @@
 		832C2D3624A1F76000F83A50 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				832C2D3524A1F76000F83A50 /* CreateAndCombine-SwiftUIUITests.app */,
-				832C2D4B24A1F76300F83A50 /* CreateAndCombine-SwiftUIUITestsUITests.xctest */,
+				832C2D3524A1F76000F83A50 /* CreateAndCombine-SwiftUI.app */,
+				832C2D4B24A1F76300F83A50 /* CreateAndCombine-SwiftUIUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,8 +83,8 @@
 		832C2D3724A1F76000F83A50 /* CreateAndCombine-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				83CE2A6124A4DBD400F30A20 /* MapView.swift */,
 				832C2D5E24A25A1D00F83A50 /* CircleImage.swift */,
+				83CE2A6124A4DBD400F30A20 /* MapView.swift */,
 				832C2D3824A1F76000F83A50 /* AppDelegate.swift */,
 				832C2D3A24A1F76000F83A50 /* SceneDelegate.swift */,
 				832C2D3C24A1F76000F83A50 /* ContentView.swift */,
@@ -107,7 +107,7 @@
 		832C2D4E24A1F76300F83A50 /* CreateAndCombine-SwiftUIUITests */ = {
 			isa = PBXGroup;
 			children = (
-				832C2D4F24A1F76300F83A50 /* FoodTracker_SwiftUIUITests.swift */,
+				832C2D4F24A1F76300F83A50 /* CreateAndCombine_SwiftUIUITests.swift */,
 				832C2D5124A1F76300F83A50 /* Info.plist */,
 			);
 			path = "CreateAndCombine-SwiftUIUITests";
@@ -130,12 +130,12 @@
 			);
 			name = "CreateAndCombine-SwiftUI";
 			productName = "FoodTracker-SwiftUI";
-			productReference = 832C2D3524A1F76000F83A50 /* CreateAndCombine-SwiftUIUITests.app */;
+			productReference = 832C2D3524A1F76000F83A50 /* CreateAndCombine-SwiftUI.app */;
 			productType = "com.apple.product-type.application";
 		};
-		832C2D4A24A1F76300F83A50 /* CreateAndCombine-SwiftUIUITestsUITests */ = {
+		832C2D4A24A1F76300F83A50 /* CreateAndCombine-SwiftUIUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 832C2D5724A1F76300F83A50 /* Build configuration list for PBXNativeTarget "CreateAndCombine-SwiftUIUITestsUITests" */;
+			buildConfigurationList = 832C2D5724A1F76300F83A50 /* Build configuration list for PBXNativeTarget "CreateAndCombine-SwiftUIUITests" */;
 			buildPhases = (
 				832C2D4724A1F76300F83A50 /* Sources */,
 				832C2D4824A1F76300F83A50 /* Frameworks */,
@@ -146,9 +146,9 @@
 			dependencies = (
 				832C2D4D24A1F76300F83A50 /* PBXTargetDependency */,
 			);
-			name = "CreateAndCombine-SwiftUIUITestsUITests";
+			name = "CreateAndCombine-SwiftUIUITests";
 			productName = "FoodTracker-SwiftUIUITests";
-			productReference = 832C2D4B24A1F76300F83A50 /* CreateAndCombine-SwiftUIUITestsUITests.xctest */;
+			productReference = 832C2D4B24A1F76300F83A50 /* CreateAndCombine-SwiftUIUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -170,7 +170,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 832C2D3024A1F76000F83A50 /* Build configuration list for PBXProject "CreateAndCombine-SwiftUIUITests" */;
+			buildConfigurationList = 832C2D3024A1F76000F83A50 /* Build configuration list for PBXProject "CreateAndCombine-SwiftUI" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -184,7 +184,7 @@
 			projectRoot = "";
 			targets = (
 				832C2D3424A1F76000F83A50 /* CreateAndCombine-SwiftUI */,
-				832C2D4A24A1F76300F83A50 /* CreateAndCombine-SwiftUIUITestsUITests */,
+				832C2D4A24A1F76300F83A50 /* CreateAndCombine-SwiftUIUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -226,7 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				832C2D5024A1F76300F83A50 /* FoodTracker_SwiftUIUITests.swift in Sources */,
+				832C2D5024A1F76300F83A50 /* CreateAndCombine_SwiftUIUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,7 +380,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Zihou-Wong.-CreateAndCombine-SwiftUI";
-				PRODUCT_NAME = "CreateAndCombine-SwiftUIUITests";
+				PRODUCT_NAME = "CreateAndCombine-SwiftUI";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -400,7 +400,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Zihou-Wong.-CreateAndCombine-SwiftUI";
-				PRODUCT_NAME = "CreateAndCombine-SwiftUIUITests";
+				PRODUCT_NAME = "CreateAndCombine-SwiftUI";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -449,7 +449,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		832C2D3024A1F76000F83A50 /* Build configuration list for PBXProject "CreateAndCombine-SwiftUIUITests" */ = {
+		832C2D3024A1F76000F83A50 /* Build configuration list for PBXProject "CreateAndCombine-SwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				832C2D5224A1F76300F83A50 /* Debug */,
@@ -467,7 +467,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		832C2D5724A1F76300F83A50 /* Build configuration list for PBXNativeTarget "CreateAndCombine-SwiftUIUITestsUITests" */ = {
+		832C2D5724A1F76300F83A50 /* Build configuration list for PBXNativeTarget "CreateAndCombine-SwiftUIUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				832C2D5824A1F76300F83A50 /* Debug */,

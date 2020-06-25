@@ -17,7 +17,7 @@
                BlueprintIdentifier = "832C2D3424A1F76000F83A50"
                BuildableName = "CreateAndCombine-SwiftUI.app"
                BlueprintName = "CreateAndCombine-SwiftUI"
-               ReferencedContainer = "container:CreateAndCombine-SwiftUIUITests.xcodeproj">
+               ReferencedContainer = "container:CreateAndCombine-SwiftUI.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "832C2D4A24A1F76300F83A50"
-               BuildableName = "CreateAndCombine-SwiftUIUITestsUITests.xctest"
-               BlueprintName = "CreateAndCombine-SwiftUIUITestsUITests"
-               ReferencedContainer = "container:CreateAndCombine-SwiftUIUITests.xcodeproj">
+               BuildableName = "CreateAndCombine-SwiftUIUITests.xctest"
+               BlueprintName = "CreateAndCombine-SwiftUIUITests"
+               ReferencedContainer = "container:CreateAndCombine-SwiftUI.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,7 +57,7 @@
             BlueprintIdentifier = "832C2D3424A1F76000F83A50"
             BuildableName = "CreateAndCombine-SwiftUI.app"
             BlueprintName = "CreateAndCombine-SwiftUI"
-            ReferencedContainer = "container:CreateAndCombine-SwiftUIUITests.xcodeproj">
+            ReferencedContainer = "container:CreateAndCombine-SwiftUI.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -74,7 +74,7 @@
             BlueprintIdentifier = "832C2D3424A1F76000F83A50"
             BuildableName = "CreateAndCombine-SwiftUI.app"
             BlueprintName = "CreateAndCombine-SwiftUI"
-            ReferencedContainer = "container:CreateAndCombine-SwiftUIUITests.xcodeproj">
+            ReferencedContainer = "container:CreateAndCombine-SwiftUI.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

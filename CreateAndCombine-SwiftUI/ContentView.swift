@@ -10,7 +10,32 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        VStack {
+            MapView()
+                .frame(height: 300)
+            
+            CircleImage()
+                .offset(y: -130)
+                .padding(.bottom, -130)
+            
+            VStack(alignment: .leading) {
+                Text("ZihouWong")
+                    .font(.title)
+                    .foregroundColor(.black)
+                HStack {
+                    Text("Beijing Institute of Technology")
+                        .foregroundColor(.gray)
+                    Text("Zhuhai")
+                        .foregroundColor(.gray)
+                }
+            }
+            .padding()
+            
+            Spacer()
+        }
+        
+    
+        
     }
 }
 
