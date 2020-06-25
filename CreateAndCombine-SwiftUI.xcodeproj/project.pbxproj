@@ -14,6 +14,8 @@
 		832C2D4224A1F76300F83A50 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 832C2D4124A1F76300F83A50 /* Preview Assets.xcassets */; };
 		832C2D4524A1F76300F83A50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 832C2D4324A1F76300F83A50 /* LaunchScreen.storyboard */; };
 		832C2D5024A1F76300F83A50 /* FoodTracker_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832C2D4F24A1F76300F83A50 /* FoodTracker_SwiftUIUITests.swift */; };
+		832C2D5F24A25A1D00F83A50 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832C2D5E24A25A1D00F83A50 /* CircleImage.swift */; };
+		83CE2A6224A4DBD400F30A20 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CE2A6124A4DBD400F30A20 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,7 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		832C2D3524A1F76000F83A50 /* FoodTracker-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FoodTracker-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		832C2D3524A1F76000F83A50 /* CreateAndCombine-SwiftUIUITests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CreateAndCombine-SwiftUIUITests.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		832C2D3824A1F76000F83A50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		832C2D3A24A1F76000F83A50 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		832C2D3C24A1F76000F83A50 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -35,9 +37,11 @@
 		832C2D4124A1F76300F83A50 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		832C2D4424A1F76300F83A50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		832C2D4624A1F76300F83A50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		832C2D4B24A1F76300F83A50 /* FoodTracker-SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FoodTracker-SwiftUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		832C2D4B24A1F76300F83A50 /* CreateAndCombine-SwiftUIUITestsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CreateAndCombine-SwiftUIUITestsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		832C2D4F24A1F76300F83A50 /* FoodTracker_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTracker_SwiftUIUITests.swift; sourceTree = "<group>"; };
 		832C2D5124A1F76300F83A50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		832C2D5E24A25A1D00F83A50 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CircleImage.swift; path = ../CircleImage.swift; sourceTree = "<group>"; };
+		83CE2A6124A4DBD400F30A20 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +65,8 @@
 		832C2D2C24A1F76000F83A50 = {
 			isa = PBXGroup;
 			children = (
-				832C2D3724A1F76000F83A50 /* FoodTracker-SwiftUI */,
-				832C2D4E24A1F76300F83A50 /* FoodTracker-SwiftUIUITests */,
+				832C2D3724A1F76000F83A50 /* CreateAndCombine-SwiftUI */,
+				832C2D4E24A1F76300F83A50 /* CreateAndCombine-SwiftUIUITests */,
 				832C2D3624A1F76000F83A50 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,15 +74,17 @@
 		832C2D3624A1F76000F83A50 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				832C2D3524A1F76000F83A50 /* FoodTracker-SwiftUI.app */,
-				832C2D4B24A1F76300F83A50 /* FoodTracker-SwiftUIUITests.xctest */,
+				832C2D3524A1F76000F83A50 /* CreateAndCombine-SwiftUIUITests.app */,
+				832C2D4B24A1F76300F83A50 /* CreateAndCombine-SwiftUIUITestsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		832C2D3724A1F76000F83A50 /* FoodTracker-SwiftUI */ = {
+		832C2D3724A1F76000F83A50 /* CreateAndCombine-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				83CE2A6124A4DBD400F30A20 /* MapView.swift */,
+				832C2D5E24A25A1D00F83A50 /* CircleImage.swift */,
 				832C2D3824A1F76000F83A50 /* AppDelegate.swift */,
 				832C2D3A24A1F76000F83A50 /* SceneDelegate.swift */,
 				832C2D3C24A1F76000F83A50 /* ContentView.swift */,
@@ -87,7 +93,7 @@
 				832C2D4624A1F76300F83A50 /* Info.plist */,
 				832C2D4024A1F76300F83A50 /* Preview Content */,
 			);
-			path = "FoodTracker-SwiftUI";
+			path = "CreateAndCombine-SwiftUI";
 			sourceTree = "<group>";
 		};
 		832C2D4024A1F76300F83A50 /* Preview Content */ = {
@@ -98,21 +104,21 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		832C2D4E24A1F76300F83A50 /* FoodTracker-SwiftUIUITests */ = {
+		832C2D4E24A1F76300F83A50 /* CreateAndCombine-SwiftUIUITests */ = {
 			isa = PBXGroup;
 			children = (
 				832C2D4F24A1F76300F83A50 /* FoodTracker_SwiftUIUITests.swift */,
 				832C2D5124A1F76300F83A50 /* Info.plist */,
 			);
-			path = "FoodTracker-SwiftUIUITests";
+			path = "CreateAndCombine-SwiftUIUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		832C2D3424A1F76000F83A50 /* FoodTracker-SwiftUI */ = {
+		832C2D3424A1F76000F83A50 /* CreateAndCombine-SwiftUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 832C2D5424A1F76300F83A50 /* Build configuration list for PBXNativeTarget "FoodTracker-SwiftUI" */;
+			buildConfigurationList = 832C2D5424A1F76300F83A50 /* Build configuration list for PBXNativeTarget "CreateAndCombine-SwiftUI" */;
 			buildPhases = (
 				832C2D3124A1F76000F83A50 /* Sources */,
 				832C2D3224A1F76000F83A50 /* Frameworks */,
@@ -122,14 +128,14 @@
 			);
 			dependencies = (
 			);
-			name = "FoodTracker-SwiftUI";
+			name = "CreateAndCombine-SwiftUI";
 			productName = "FoodTracker-SwiftUI";
-			productReference = 832C2D3524A1F76000F83A50 /* FoodTracker-SwiftUI.app */;
+			productReference = 832C2D3524A1F76000F83A50 /* CreateAndCombine-SwiftUIUITests.app */;
 			productType = "com.apple.product-type.application";
 		};
-		832C2D4A24A1F76300F83A50 /* FoodTracker-SwiftUIUITests */ = {
+		832C2D4A24A1F76300F83A50 /* CreateAndCombine-SwiftUIUITestsUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 832C2D5724A1F76300F83A50 /* Build configuration list for PBXNativeTarget "FoodTracker-SwiftUIUITests" */;
+			buildConfigurationList = 832C2D5724A1F76300F83A50 /* Build configuration list for PBXNativeTarget "CreateAndCombine-SwiftUIUITestsUITests" */;
 			buildPhases = (
 				832C2D4724A1F76300F83A50 /* Sources */,
 				832C2D4824A1F76300F83A50 /* Frameworks */,
@@ -140,9 +146,9 @@
 			dependencies = (
 				832C2D4D24A1F76300F83A50 /* PBXTargetDependency */,
 			);
-			name = "FoodTracker-SwiftUIUITests";
+			name = "CreateAndCombine-SwiftUIUITestsUITests";
 			productName = "FoodTracker-SwiftUIUITests";
-			productReference = 832C2D4B24A1F76300F83A50 /* FoodTracker-SwiftUIUITests.xctest */;
+			productReference = 832C2D4B24A1F76300F83A50 /* CreateAndCombine-SwiftUIUITestsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -164,7 +170,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 832C2D3024A1F76000F83A50 /* Build configuration list for PBXProject "FoodTracker-SwiftUI" */;
+			buildConfigurationList = 832C2D3024A1F76000F83A50 /* Build configuration list for PBXProject "CreateAndCombine-SwiftUIUITests" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -177,8 +183,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				832C2D3424A1F76000F83A50 /* FoodTracker-SwiftUI */,
-				832C2D4A24A1F76300F83A50 /* FoodTracker-SwiftUIUITests */,
+				832C2D3424A1F76000F83A50 /* CreateAndCombine-SwiftUI */,
+				832C2D4A24A1F76300F83A50 /* CreateAndCombine-SwiftUIUITestsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -210,7 +216,9 @@
 			files = (
 				832C2D3924A1F76000F83A50 /* AppDelegate.swift in Sources */,
 				832C2D3B24A1F76000F83A50 /* SceneDelegate.swift in Sources */,
+				83CE2A6224A4DBD400F30A20 /* MapView.swift in Sources */,
 				832C2D3D24A1F76000F83A50 /* ContentView.swift in Sources */,
+				832C2D5F24A25A1D00F83A50 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,7 +235,7 @@
 /* Begin PBXTargetDependency section */
 		832C2D4D24A1F76300F83A50 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 832C2D3424A1F76000F83A50 /* FoodTracker-SwiftUI */;
+			target = 832C2D3424A1F76000F83A50 /* CreateAndCombine-SwiftUI */;
 			targetProxy = 832C2D4C24A1F76300F83A50 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -363,16 +371,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"FoodTracker-SwiftUI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CreateAndCombine-SwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = Z6ZL7G366Y;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "FoodTracker-SwiftUI/Info.plist";
+				INFOPLIST_FILE = "CreateAndCombine-SwiftUI/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Zihou-Wong.FoodTracker-SwiftUI";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "Zihou-Wong.-CreateAndCombine-SwiftUI";
+				PRODUCT_NAME = "CreateAndCombine-SwiftUIUITests";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -383,16 +391,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"FoodTracker-SwiftUI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CreateAndCombine-SwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = Z6ZL7G366Y;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "FoodTracker-SwiftUI/Info.plist";
+				INFOPLIST_FILE = "CreateAndCombine-SwiftUI/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Zihou-Wong.FoodTracker-SwiftUI";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "Zihou-Wong.-CreateAndCombine-SwiftUI";
+				PRODUCT_NAME = "CreateAndCombine-SwiftUIUITests";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -441,7 +449,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		832C2D3024A1F76000F83A50 /* Build configuration list for PBXProject "FoodTracker-SwiftUI" */ = {
+		832C2D3024A1F76000F83A50 /* Build configuration list for PBXProject "CreateAndCombine-SwiftUIUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				832C2D5224A1F76300F83A50 /* Debug */,
@@ -450,7 +458,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		832C2D5424A1F76300F83A50 /* Build configuration list for PBXNativeTarget "FoodTracker-SwiftUI" */ = {
+		832C2D5424A1F76300F83A50 /* Build configuration list for PBXNativeTarget "CreateAndCombine-SwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				832C2D5524A1F76300F83A50 /* Debug */,
@@ -459,7 +467,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		832C2D5724A1F76300F83A50 /* Build configuration list for PBXNativeTarget "FoodTracker-SwiftUIUITests" */ = {
+		832C2D5724A1F76300F83A50 /* Build configuration list for PBXNativeTarget "CreateAndCombine-SwiftUIUITestsUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				832C2D5824A1F76300F83A50 /* Debug */,
